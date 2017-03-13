@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiraTestNUnitAddIn", "SpiraTestNUnitAddIn\SpiraTestNUnitAddIn.csproj", "{DF958079-9EBA-49EC-A410-207CC8BDA377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTestSuite", "SampleTestSuite\SampleTestSuite.csproj", "{E832C7B2-92E1-42DB-8083-448CDE21B836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiraTestFramework", "SpiraTestFramework\SpiraTestFramework.csproj", "{7E61A312-07E9-4C59-B5D6-622925375A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumSampleTest", "SeleniumSampleTest\SeleniumSampleTest.csproj", "{BFBC40C2-3C76-441B-A8C7-D5E70888D4E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF958079-9EBA-49EC-A410-207CC8BDA377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF958079-9EBA-49EC-A410-207CC8BDA377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF958079-9EBA-49EC-A410-207CC8BDA377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF958079-9EBA-49EC-A410-207CC8BDA377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E832C7B2-92E1-42DB-8083-448CDE21B836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E832C7B2-92E1-42DB-8083-448CDE21B836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E832C7B2-92E1-42DB-8083-448CDE21B836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E832C7B2-92E1-42DB-8083-448CDE21B836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E61A312-07E9-4C59-B5D6-622925375A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E61A312-07E9-4C59-B5D6-622925375A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E61A312-07E9-4C59-B5D6-622925375A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E61A312-07E9-4C59-B5D6-622925375A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBC40C2-3C76-441B-A8C7-D5E70888D4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBC40C2-3C76-441B-A8C7-D5E70888D4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBC40C2-3C76-441B-A8C7-D5E70888D4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBC40C2-3C76-441B-A8C7-D5E70888D4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

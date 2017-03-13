@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project name="NUnit Add-In" default="zipup">
+	<target name="zipup" description="Zips up the whole application for deployment">
+		<echo message="Zipping up entire application" />
+		<zip zipfile="NUnitAddIn.zip" verbose="true" comment="SpiraTest Add-In for NUnit 2.5">
+			<fileset basedir="SpiraTestNUnitAddIn/bin/Release">
+				<include name="SpiraTestNUnitAddIn.dll" />
+			</fileset>
+			<fileset basedir="SampleTestSuite/bin/Release">
+				<include name="SampleTestSuite.dll" />
+			</fileset>
+			<fileset basedir="SeleniumSampleTest/bin/Release">
+				<include name="SeleniumSampleTest.dll" />
+			</fileset>
+			<fileset basedir="SpiraTestFramework/bin/Release">
+				<include name="SpiraTestFramework.dll" />
+			</fileset>
+			<fileset basedir="..">
+				<include name="NUnit Add-In/**/*.cs" />
+				<include name="NUnit Add-In/**/*.csproj" />
+				<include name="NUnit Add-In/**/*.map" />
+				<include name="NUnit Add-In/**/*.datasource" />
+				<include name="NUnit Add-In/**/*.wsdl" />
+				<include name="NUnit Add-In/**/*.disco" />
+				<include name="NUnit Add-In/**/*.xsd" />
+				<include name="NUnit Add-In/**/*.sln" />
+				<include name="NUnit Add-In/**/*.vsmdi" />
+			</fileset>
+		</zip>
+	</target>	
+</project>
